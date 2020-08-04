@@ -1,0 +1,189 @@
+* { box-sizing: border-box;}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#wrapper {
+    background-color: rgb(236, 235, 235);
+    min-height: 100%;
+    position: relative;
+}
+
+#header {
+    box-shadow: 0px 7px 5px -2px rgb(7, 7, 7);
+    background-color: rgb(16, 16, 83);
+    padding: 10px;
+}
+
+#headImage {
+    padding-top: 15px;
+    padding-left: 80px;
+    float: left;
+}
+
+#motto {
+    font-size: 3em;
+    color: rgb(211, 211, 211);
+    padding: 25px 0px 0px 50px;
+    float: left;
+    text-shadow: 3px 3px 3px black;
+}
+
+#clearFloat {
+    clear: both;
+}
+
+#headContainer {
+    width: 900px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    font-size: 2em;
+    background-color:  rgb(211, 211, 211);
+    padding: 0px 10px 0px 10px;
+    border: 3px solid black;
+    display: inline-block;
+    margin: .4em;
+    border-radius: 10px;
+}
+
+li:hover, a:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+#body {
+    max-width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    padding-bottom: 60px; /* Height of the footer */
+}
+
+#title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+button {
+    margin: .5em;
+    padding: 0px 40px;
+    font-size: 1.5em;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* height of the footer */
+    background: rgb(16, 16, 83);
+    box-shadow: 0px -5px 3px -2px rgb(7, 7, 7);
+
+}
+
+.footText {
+    color: rgb(211, 211, 211);
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 16px;
+}
+
+/* Contact Page Css */
+
+form {
+    border: 2px solid black;
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px black;
+}
+
+input {
+    font-size: 1.4em;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#formSubmit {
+    padding: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(211, 211, 211);
+    box-shadow: 3px 3px 3px black;
+}
+
+#formSubmit:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+/* About Page CSS */
+
+.aboutPage {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Portfolio CSS */
+
+#portPage {
+    max-width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+#portSection {
+    font-size: 20px;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 20px 0 20px 0;
+}
+
+.portLinks {
+    color: blue;
+}
+
+

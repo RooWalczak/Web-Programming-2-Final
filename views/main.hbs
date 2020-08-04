@@ -1,0 +1,28 @@
+<div id="body">
+    <!--Body Start-->
+    <h1 id="title">{{ title }}</h1>
+    <section>
+        <h2>Who Am I?</h2>
+        <p>I'm a simple yet very diverse person. I try to live everyday giving gratitude towards everything and
+            everyone because this life we have is beautiful.
+            <br> I also try to live for the now, because what we do and say in this moment matters more than
+            what we have done or will do.
+            <br><br> Have fun, stay kind, and live life to the fullest!
+        </p>
+    </section>
+    <section>
+        <h2>Multimedia</h2>
+        <div id="mediaBtn">
+            <button onclick="showMedia()">Show</button>
+            <button onclick="hideMedia()">Hide</button>
+        </div>
+        <video id="{{video.id}}" controls>
+            <source src="{{video.src}}" type="video/mp4">
+        </video>
+        <br>
+        <audio id="{{audio.id}}" controls>
+            <source src="{{audio.src}}" type="audio/mpeg">
+        </audio>
+    </section>
+    <!--Body End-->
+</div>

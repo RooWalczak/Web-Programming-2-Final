@@ -1,0 +1,22 @@
+<div id="body">
+    <!--Body Start-->
+    <div id="portPage">
+        <h1 id="title">{{ title }}</h1>
+        <section id="portSection">
+            <h2>These are projects I have created/developed.</h2>
+            <dl>
+                {{#each projects}}
+                    <dt>{{title}}</dt>
+                    <dd>{{description}}</dd>
+                    <dd>URL: <a href="{{url}}" target="_blank" class="portLinks">{{url}}</a></dd>
+                {{else}}
+                <dt>
+                    Sorry, no data.
+                </dt>
+                {{/each}}
+            </dl>
+            *These are just ficticious projects and sites.*
+        </section>
+    </div>
+    <!--Body End-->
+</div>

@@ -1,0 +1,21 @@
+<div id="contain">
+    <header>
+        <h1 id="title">{{title}}</h1>
+        <nav>
+            <ul>
+                <li><button id="btnGet">GET</button></li>
+                <li><button id="btnPost">POST</button></li>
+                <li><button id="btnPut">PUT</button></li>
+                <li><button id="btnDelete">DELETE</button></li>
+            </ul>
+            <div id="ajax-type">
+                <input type="radio" name="ajax-type" id="ajax" value="ajax">AJAX XMLHttpRequest
+                <input type="radio" name="ajax-type" id="jquery" value="jquery" checked>jQuery $.ajax()
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="ajaxForm"></div>
+        <div id="result"></div>
+    </main>
+</div>
